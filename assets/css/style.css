@@ -1,18 +1,37 @@
 
 
+/* 
 #body {
     margin-right: auto;
     margin-left: auto;
-   max-width: 1800px;
-    
+    max-width: 1800px;
 } 
+*/
 
 .imagem-carrossel {
        
-    max-width: 1800px;
+    /* max-width: 1800px; */
     max-height: 600px;
     object-fit: cover;
 }
+
+.fonte-titulo {
+    font-family: 'Pacifico', cursive;
+}
+
+.cor-especial{
+    color: rgb(83, 39, 7);
+}
+
+.botao-cor-especial{
+    background-color: rgb(83, 39, 7);
+    color: white;
+}
+
+.borda-cor-especial{
+    border-color: rgb(83, 39, 7);    
+}
+
 
 
 
