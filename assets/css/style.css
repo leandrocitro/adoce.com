@@ -52,5 +52,5 @@
 }
 
 .card_largura{
-  width: 100%;  
+  max-width: 100%;  
 }
