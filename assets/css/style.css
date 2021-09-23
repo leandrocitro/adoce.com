@@ -47,6 +47,10 @@
     border-color: rgb(83, 39, 7);    
 }
 
+.logo1 {
+    object-fit: cover; 
+}
+
 
 
 
