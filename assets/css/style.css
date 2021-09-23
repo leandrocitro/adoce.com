@@ -17,7 +17,7 @@
 .imagem-carrossel {
 
     /* max-width: 1000px; */
-    height: 700px;
+    height: 500px;
     width: 1300px;
 
     object-fit: cover;
@@ -48,7 +48,7 @@
 }
 
 .imagem-card {
-    height: 400px;
+    height: 300px;
 }
 
 .card_largura{
