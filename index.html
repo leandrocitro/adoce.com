@@ -16,229 +16,227 @@
 </head>
 
 <body id="body">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="header">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img src="./assets/images/logo11.png" alt="logo adoce" class="logo1 img-responsive"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
-                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+
+    <!-- Header -->
+
+    <header class: header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="./assets/images/logo1.png" alt="logo adoce"
+                        class="logo1 img-responsive"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo02">
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="O que você procura?"
+                            aria-label="Search">
+                        <button class="btn botao-cor-especial" type="submit">Buscar</button>
+                    </form>
+
+                </div>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active cor-especial" aria-current="page" href="#">Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active cor-especial" href="#">Quem Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active cor-especial">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </header>
+
+
+
+    <main class="principal">
+
+        <!-- Carrossel -->
+
+        <section id="carouselExampleIndicators" class="carousel slide carrossel" data-bs-ride="carousel">
+            <div class="carousel-indicators carrossel">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/images/image1.jpg" class="rounded float-left w-100 imagem-carrossel" alt="...">
+                    <section id="titulo" class="carousel-caption d-none d-md-block h-15">
+                        <h1 class="fonte-titulo">Seja Bem-Vindo a Adoce</h1>
+                    </section>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/image2.jpg" class="d-block w-100 imagem-carrossel" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/image3.jpg" class="d-block w-100 imagem-carrossel" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
             </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo02">
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="O que você procura?"
-                        aria-label="Search">
-                    <button class="btn botao-cor-especial" type="submit">Buscar</button>
-                </form>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </section>
 
-            </div>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active cor-especial" aria-current="page" href="#">Produtos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active cor-especial" href="#">Quem Somos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active cor-especial">Contato</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+        <!-- Quem Somos -->
 
-    <div id="carouselExampleIndicators" class="carousel slide carrossel" data-bs-ride="carousel">
-        <div class="carousel-indicators carrossel">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="./assets/images/image1.jpg" class="rounded float-left w-100 imagem-carrossel" alt="...">
-                <div class="carousel-caption d-none d-md-block h-15">
-                    <h1 class="fonte-titulo">Seja Bem-Vindo a Adoce</h1>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="./assets/images/image2.jpg" class="d-block w-100 imagem-carrossel" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="./assets/images/image3.jpg" class="d-block w-100 imagem-carrossel" alt="...">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-
-
-    <h1 class="text-center fonte-titulo cor-especial pt-5">Quem Somos</h1>
-    <p class="text-center text-secondary fs-4 pt-2">Nosso propósito é ativar seu hormônio da felicidade e deixar suas
-        papilas gustativas nas nuvens com nossos chocolates!</p>
+        <h1 class="text-center fonte-titulo cor-especial pt-5">Quem Somos</h1>
+        <p class="text-center text-secondary fs-4 pt-2">Nosso propósito é ativar seu hormônio da felicidade e deixar
+            suas
+            papilas gustativas nas nuvens com nossos chocolates!</p>
 
 
 
-    <div class="container mt-5" id="cards">
+        <!-- Cards -->
 
-        <h1 class="text-center fonte-titulo cor-especial pt-5">Nossos Produtos</h1>
-        <br>
-        <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
-                <div class="card borda-cor-especial" style="width: 100%">
-                    <div id="carouselCurso" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="./assets/images/image1.jpg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./assets/images/image2.jpg" class="d-block w-100" alt="...">
-                            </div>
+        <section class="container mt-5" id="cards">
+
+            <h1 class="text-center fonte-titulo cor-especial pt-5">Nossos Produtos</h1>
+            <br>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-4 mb-3">
+                    <div class="card borda-cor-especial card_largura">
+                        <img src="./assets/images/image1.jpg" class="card-img-top imagem-card" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Barra</h5>
+                            <p class="card-text">Deliciosas barras de chocolate</p>
+                            <a href="#" class="btn botao-cor-especial">Comprar</a>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselCurso"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselCurso"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
                     </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-4 mb-3">
+                    <div class="card borda-cor-especial card_largura">
+                        <img src="./assets/images/image2.jpg" class="card-img-top imagem-card" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Coração</h5>
+                            <p class="card-text">Deliciosos Bombons recheados</p>
+                            <a href="#" class="btn botao-cor-especial">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-4 mb-3">
+                    <div class="card borda-cor-especial">
+                        <img src="./assets/images/image3.jpg" class="card-img-top imagem-card" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Bombons</h5>
+                            <p class="card-text">Deliciosos Bombons recheados</p>
+                            <a href="#" class="btn botao-cor-especial">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-4 mb-3">
+                    <div class="card borda-cor-especial">
+                        <img src="./assets/images/image4.jpg" class="card-img-top imagem-card" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Produto</h5>
+                            <p class="card-text">Deliciosos Bombons recheados</p>
+                            <a href="#" class="btn botao-cor-especial">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-4 mb-3">
+                    <div class="card borda-cor-especial">
+                        <img src="./assets/images/image5.jpg" class="card-img-top imagem-card" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Produto</h5>
+                            <p class="card-text">Deliciosos Bombons recheados</p>
+                            <a href="#" class="btn botao-cor-especial">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-4 mb-3">
+                    <div class="card borda-cor-especial">
+                        <img src="./assets/images/image6.jpg" class="card-img-top imagem-card" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Produto</h5>
+                            <p class="card-text">Deliciosos Bombons recheados</p>
+                            <a href="#" class="btn botao-cor-especial">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-4 mb-3">
+                    <div class="card borda-cor-especial">
+                        <img src="./assets/images/image7.png" class="card-img-top imagem-card" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Produto</h5>
+                            <p class="card-text">Deliciosos Bombons recheados</p>
+                            <a href="#" class="btn botao-cor-especial">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-4 mb-3">
+                    <div class="card borda-cor-especial">
+                        <img src="./assets/images/image8.png" class="card-img-top imagem-card" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Produto</h5>
+                            <p class="card-text">Deliciosos Bombons recheados</p>
+                            <a href="#" class="btn botao-cor-especial">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-4 mb-3">
+                    <div class="card borda-cor-especial">
+                        <img src="./assets/images/image9.png" class="card-img-top imagem-card" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Produto</h5>
+                            <p class="card-text">Deliciosos Bombons recheados</p>
+                            <a href="#" class="btn botao-cor-especial">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-4 mb-3">
+                    <div class="card borda-cor-especial card_largura">
+                        <img src="./assets/images/image1.jpg" class="card-img-top imagem-card" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Barra</h5>
+                            <p class="card-text">Deliciosas barras de chocolate</p>
+                            <a href="#" class="btn botao-cor-especial">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-4 mb-3">
+                    <div class="card borda-cor-especial card_largura">
+                        <img src="./assets/images/image2.jpg" class="card-img-top imagem-card" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Coração</h5>
+                            <p class="card-text">Deliciosos Bombons recheados</p>
+                            <a href="#" class="btn botao-cor-especial">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-4 mb-3">
+                    <div class="card borda-cor-especial">
+                        <img src="./assets/images/image3.jpg" class="card-img-top imagem-card" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Bombons</h5>
+                            <p class="card-text">Deliciosos Bombons recheados</p>
+                            <a href="#" class="btn botao-cor-especial">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-                    <div class="card-body">
-                        <h5 class="card-title">Barra</h5>
-                        <p class="card-text">Deliciosas barras de chocolate</p>
-                        <a href="#" class="btn botao-cor-especial">Comprar</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
-                <div class="card borda-cor-especial" style="width: 100%">
-                    <img src="./assets/images/image5.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Coração</h5>
-                        <p class="card-text">Deliciosos Bombons recheados</p>
-                        <a href="#" class="btn botao-cor-especial">Comprar</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
-                <div class="card borda-cor-especial" style="width: 100%">
-                    <img src="./assets/images/image3.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Bombons</h5>
-                        <p class="card-text">Deliciosos Bombons recheados</p>
-                        <a href="#" class="btn botao-cor-especial">Comprar</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
-                <div class="card borda-cor-especial" style="width: 100%">
-                    <img src="./assets/images/image1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Produto</h5>
-                        <p class="card-text">Deliciosos Bombons recheados</p>
-                        <a href="#" class="btn botao-cor-especial">Comprar</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
-                <div class="card borda-cor-especial" style="width: 100%">
-                    <img src="./assets/images/image4.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Produto</h5>
-                        <p class="card-text">Deliciosos Bombons recheados</p>
-                        <a href="#" class="btn botao-cor-especial">Comprar</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
-                <div class="card borda-cor-especial" style="width: 100%">
-                    <img src="./assets/images/image5.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Produto</h5>
-                        <p class="card-text">Deliciosos Bombons recheados</p>
-                        <a href="#" class="btn botao-cor-especial">Comprar</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
-                <div class="card borda-cor-especial" style="width: 100%">
-                    <img src="./assets/images/image4.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Produto</h5>
-                        <p class="card-text">Deliciosos Bombons recheados</p>
-                        <a href="#" class="btn botao-cor-especial">Comprar</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
-                <div class="card borda-cor-especial" style="width: 100%">
-                    <img src="./assets/images/image3.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Produto</h5>
-                        <p class="card-text">Deliciosos Bombons recheados</p>
-                        <a href="#" class="btn botao-cor-especial">Comprar</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
-                <div class="card borda-cor-especial" style="width: 100%">
-                    <img src="./assets/images/image2.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Produto</h5>
-                        <p class="card-text">Deliciosos Bombons recheados</p>
-                        <a href="#" class="btn botao-cor-especial">Comprar</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
-                <div class="card borda-cor-especial" style="width: 100%">
-                    <img src="./assets/images/image5.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Produto</h5>
-                        <p class="card-text">Deliciosos Bombons recheados</p>
-                        <a href="#" class="btn botao-cor-especial">Comprar</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
-                <div class="card borda-cor-especial" style="width: 100%">
-                    <img src="./assets/images/image2.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Produto</h5>
-                        <p class="card-text">Deliciosos Bombons recheados</p>
-                        <a href="#" class="btn botao-cor-especial">Comprar</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
-                <div class="card borda-cor-especial" style="width: 100%">
-                    <img src="./assets/images/image1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Produto</h5>
-                        <p class="card-text">Deliciosos Bombons recheados</p>
-                        <a href="#" class="btn botao-cor-especial">Comprar</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
-        </script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+                crossorigin="anonymous">
+            </script>
+    </main>
 </body>
 
 </html>
