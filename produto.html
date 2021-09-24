@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adoce | Produtos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+</head>
+
+<body id="body">
+
+    <!-- Header -->
+
+    <header class: header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="./assets/images/logo1.png" alt="logo adoce"
+                        class="logo1 img-responsive"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active cor-especial fs-4 m-3" aria-current="page" href="#">Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active cor-especial fs-4 m-3" href="index.html">Quem Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active cor-especial fs-4 m-3" data-bs-toggle="modal"
+                                data-bs-target="#modal-contato" href="#">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="O que você procura?"
+                            aria-label="Search">
+                        <button class="btn botao-cor-especial" type="submit">Buscar</button>
+                    </form>
+
+                </div>
+            </div>
+    </header>
+
+    <main>
+
+        <!-- produto -->
+
+        <div class="container mt-5">
+
+            <div class="container">
+                <!-- Page Heading -->
+                <section class="page-section" id="produto">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1 class="page-header">Barra de chocolate - 350g</h1>
+                            <hr>
+                        </div>
+                    </div>
+                    <!-- /.row -->
+
+                    <div class="row">
+                        <div class=" w-100 pt-5">
+
+                            <!-- There's only One image -->
+                            <div class="">
+                                <div class="main-product-image">
+
+
+                                    <div id="carouselproduto" class="carousel slide carousel-dark slide"
+                                        data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="./assets/images/detalhes_produtos/detalhe1.jpg"
+                                                    class="d-block w-100 imagem-produto" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="./assets/images/detalhes_produtos/detalhe2.jpg"
+                                                    class="d-block w-100 imagem-produto" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="./assets/images/detalhes_produtos/detalhe3.jpg"
+                                                    class="d-block w-100 imagem-produto" alt="...">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselproduto" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselproduto" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <!-- Product Price  -->
+                            <div class="form-group row mb-5 mt-3">
+                                <label class="col-sm-3 col-md-3 form-control-label cor-especial fs-5 mb-3">Descrição:</label>
+                                <div>
+                                    <p class="lead text-secondary">Deliciosa Barra de chocolate feita com chocolate nobre e diversos
+                                        recheios para você montar a sua barra perfeita.</p>
+
+                                </div>
+                            </div>
+                            <div class="form-group price_elem row">
+                                <label class="col-sm-3 col-md-3 form-control-label nopaddingtop">Preço:</label>
+                                <div class="col-sm-8 col-md-9">
+                                    <p class="fw-bolder">R$ 30,00</p>
+                                    <p></p>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="Quantity" class="col-sm-3 col-md-3 form-control-label">Quantidade:</label>
+                                <div class="col-sm-4 col-md-2">
+
+                                    <input type="number" class="qty form-control" id="input-qty" name="qty"
+                                        maxlength="5" value="1">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-sm-3 col-md-3 form-control-label"></label>
+                                <div class="col-sm-9 col-md-9">
+                                    <p></p>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-sm-3 col-md-3 form-control-label"></label>
+                                    <div class="col-sm-8 col-sm-offset-3 col-md-9 col-md-offset-3">
+                                        <button type="button" class="btn btn-lg botao-cor-especial">Monte sua
+                                            Barra</button>
+                                    </div>
+                                </div>
+                                <label class="col-sm-3 col-md-3 form-control-label"></label>
+                                <div class="col-sm-9 col-md-9">
+                                    <p></p>
+                                </div>
+
+
+
+                                <li class="list-inline-item">
+                                    <a href="https://twitter.com/share?url=https://beertime.netlify.app/produto.html/#produto"
+                                        class="has-tip tip-top radius button tiny button-twitter trsn"
+                                        title="Share on Twitter" target="_blank" data-tooltip="">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+
+
+
+                                <li class="list-inline-item">
+                                    <a href="https://pinterest.com/pin/create/bookmarklet/?media=https://beertime.netlify.app/vitrine/Imagem10.jpg"
+                                        class="has-tip tip-top radius button tiny button-pinterest trsn"
+                                        title="Share on Pinterest" target="_blank" data-tooltip="">
+                                        <i class="fab fa-pinterest"></i>
+                                    </a>
+                                </li>
+
+
+
+                                <li class="list-inline-item">
+                                    <a class="has-tip tip-top radius button tiny button-tumblr trsn"
+                                        title="Share on Tumblr"
+                                        href="http://tumblr.com/widgets/share/tool?canonicalUrl=https://beertime.netlify.app/vitrine/Imagem10.jpg">
+                                        <i class="fab fa-tumblr"></i>
+                                    </a>
+                                </li>
+                                <script id="tumblr-js" async="" src="vitrine/Imagem10.jpg" wfd-invisible="true">
+                                </script>
+
+
+
+                                <li class="list-inline-item">
+                                    <a id="whatsapp" class="has-tip tip-top radius button tiny button-whats trsn"
+                                        href="https://api.whatsapp.com/send?text=Olhe%20este%20produto%20Birits%20500ml%20|%20https://beertime.netlify.app/produto.html#produto"
+                                        wfd-invisible="true">
+                                        <i class="fab fa-whatsapp"></i>
+                                    </a>
+                                </li>
+
+
+                                </ul>
+                            </div>
+
+
+
+
+
+
+
+                            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+                                integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+                                crossorigin="anonymous">
+                            </script>
+    </main>
+
+    <!-- Footer -->
+    <footer class="background-footer p-3">
+        <p class="cor-especial m-0 text-center">contato: <a class="cor-especial" href="mailto:adoce@adoce.com.br">adoce@adoce.com.br</a></p>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal-contato" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Entre em contato com a Adoce!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputText1" class="form-label">Nome Completo</label>
+                            <input type="text" class="form-control" placeholder="Insira seu nome"
+                                id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text"></div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email</label>
+                            <input type="email" class="form-control" placeholder="nome@exemplo.com"
+                                id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1">Deixe sua mensagem</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1"
+                                placeholder="Insira aqui sua mensagem" rows="8"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn botao-cor-especial">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

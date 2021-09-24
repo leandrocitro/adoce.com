@@ -17,7 +17,7 @@
 .imagem-carrossel {
 
     /* max-width: 1000px; */
-    height: 500px;
+    height: 700px;
     width: 1300px;
 
     object-fit: cover;
@@ -57,4 +57,10 @@
 
 .background-footer {
     background-color: rgb(212, 206, 201);
+}
+
+
+.imagem-produto {
+    max-height: 500px;
+    max-width: 600px;
 }
